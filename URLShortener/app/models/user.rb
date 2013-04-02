@@ -1,5 +1,3 @@
-# require 'launchy'
-
 class User < ActiveRecord::Base
   attr_accessible :user_name, :user_email
   has_many :comments
